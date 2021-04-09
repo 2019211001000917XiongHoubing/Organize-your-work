@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Information/Information",
+    "pages/Organize/Organize"
+  ],
+  "tabBar": {
+    "backgroundColor": "#ffc0cb",
+    "position": "bottom",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "images/1.1.png",
+      "selectedIconPath": "images/1.1.png"
+    },
+    {
+      "pagePath": "pages/Organize/Organize",
+      "text": "任务管理",
+      "iconPath": "images/2.1.png",
+      "selectedIconPath": "images/2.1.png"
+    },
+    {
+      "pagePath": "pages/Information/Information",
+      "text": "任务查询",
+      "iconPath": "images/3.1.png",
+      "selectedIconPath": "images/3.1.png"
+    }
+  ]
+  },
+
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffc0cb",
+    "navigationBarTitleText": "Dont't  Stop",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
